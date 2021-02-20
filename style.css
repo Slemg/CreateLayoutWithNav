@@ -1,0 +1,37 @@
+* {
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+}
+.header .menu-content a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color:green;
+}
+.header .col {
+    max-width: 200px;
+    margin:0 auto
+}
+.header .col .menu-title {
+    padding: 6px;
+    background-color:#ff33cc;
+    text-align:center;
+    cursor: pointer;
+    
+}
+.header .menu-content {
+    border: solid 1px gray;
+}
+.header .menu-content a:hover {
+    background-color: gray;
+}
+.menu-content {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.col:hover .menu-content {
+    height: 200px;
+}
